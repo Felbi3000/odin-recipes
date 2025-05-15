@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: brown;
+}
+
+h2 {
+    color: blueviolet;
+}
+
+a {
+    font-weight: bold;
+}
+
+.feature_pic {
+    display: block;
+    width: 500px;
+    padding: 5px;
+    background-color: indianred;
+    border: 1px dotted rebeccapurple;
+    margin: 0px auto;
+}
+
+.ingredients {
+    background-color: aquamarine;
+    padding: 8px 30px;
+}
+
+.steps {
+    background-color: darkorange;
+    padding: 8px 30px;
+}
